@@ -5,7 +5,7 @@ var router = express.Router();
 // const app = express()
 expressWs(router)
 
-var myevent = require('./getForce').myevent
+var myevent = require('./getforce').myevent
 
 router.ws('/', function (ws, req) {
     console.log('connect success')
